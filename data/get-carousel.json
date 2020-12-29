@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "prod_name": "Camera",
+    "img": "https://images.unsplash.com/photo-1567018548889-6d7f0eaff046?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1796&q=80",
+    "sp": 999,
+    "discount": "35% Off"
+  },
+  {
+    "id": 2,
+    "prod_name": "Smart_Watch",
+    "img": "https://images.unsplash.com/photo-1593544173090-811fe6ba3033?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1359&q=80",
+    "sp": 5999,
+    "discount": "5% Off"
+  },
+  {
+    "id": 3,
+    "prod_name": "Sanitizer",
+    "img": "https://images.unsplash.com/photo-1604997173908-7a28e5837f62?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2029&q=80",
+    "sp": 100,
+    "discount": "5% Off"
+  },
+  {
+    "id": 4,
+    "prod_name": "Black_Shoes",
+    "img": "https://images.unsplash.com/photo-1546531888-dfb0b05c2b05?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1784&q=80",
+    "sp": 1999,
+    "discount": "15% Off"
+  },
+  {
+    "id": 5,
+    "prod_name": "Buttol",
+    "img": "https://images.unsplash.com/photo-1507049287156-210a14f80685?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1865&q=80",
+    "sp": 399,
+    "discount": "25% Off"
+  }
+]
