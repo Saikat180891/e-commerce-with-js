@@ -23,17 +23,18 @@ const Header = () => {
                             <img src="./assets/images/download.png" class="logo" alt="logo" />
                         </a>
                         <div class="category">
-                        <button class="cat-list">Shop by category ></button>
-                        <ul id="lst"></ul>
+                          <button class="cat-list">Shop by category ></button>
+                          <ul id="lst"></ul>
                         </div>
                      </div>
                     <div><input type="search" placeholder="Search something" /></div>
                     <div id="cart">
-                        <span id="cart-count">Cart: 0</span>
-                        <div class="my-cart">
+                      <span id="cart-count">Cart: 0</span>
+                      <div class="my-cart">
                         <ul id="cart-list"></ul>
                         <span id="total"></span>
-                        </div>
+                        <button class="checkout-btn btn" onclick = "location.href = '/checkout.html'";>checkout</button>
+                      </div>
                     </div>`;
   }
   div.className = "navbar w-full flex justify-between";

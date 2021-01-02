@@ -1,33 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>E-commerce Website</title>
-    <link rel="stylesheet" href="./assets/styles/main.css" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
-  <body>
-    <header id="header"></header>
-    <div class="flex">
-      <select id="sort-by">
-        <option value="prod_name">Product Name</option>
-        <option value="l_h">Price: Low To High</option>
-        <option value="h_l">Price: High To Low</option>
-      </select>
-    </div>
-    <main class="container"></main>
-    <footer id="footer"></footer>
-    <script src="./data.js"></script>
-    <script src="./src/components/header.js"></script>
-    <script src="./src/components/footer.js"></script>
-    <script src="./src/pages/home/getCategories.js"></script>
-    <script src="./src/pages/home/renderMyCart.js"></script>
-    <script src="./src/pages/home/renderProducts.js"></script>
-    <script src="./src/pages/home/apis.js"></script>
-    <script src="./src/pages/home/app.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-commerce Website</title>
+  <link rel="stylesheet" href="./assets/styles/main.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+  <header id="header"></header>
+  <div class="flex">
+    <select id="sort-by">
+      <option value="prod_name">Product Name</option>
+      <option value="l_h">Price: Low To High</option>
+      <option value="h_l">Price: High To Low</option>
+      <option value="0-2000">Price: 0 - 2000</option>
+      <option value="<_10%">Discount &#60 10%</option>
+      <option value=">_10%">Discount &#62 10%</option>
+      <option value=">_2001">aboup 2001</option>
+      <option value="clear_filter">Clear Filter</option>
+    </select>
+  </div>
+  <main class="container"></main>
+  <footer id="footer"></footer>
+  <script src="./data.js"></script>
+  <script src="./src/components/header.js"></script>
+  <script src="./src/components/footer.js"></script>
+  <script src="./src/pages/home/getCategories.js"></script>
+  <script src="./src/pages/home/renderMyCart.js"></script>
+  <script src="./src/pages/home/renderProducts.js"></script>
+  <script src="./src/pages/home/apis.js"></script>
+  <script src="./src/pages/home/app.js"></script>
+</body>
+
 </html>
