@@ -1,6 +1,8 @@
 @import "./global.css";
+@import "./flex.css";
 @import "./header.css";
 @import "./button.css";
+@import "./carousel.css";
 
 .container {
   padding: 20px;

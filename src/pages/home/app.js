@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const total_cost = document.querySelector("#total");
   const container = document.querySelector(".container");
   const sortBy = document.querySelector("#sort-by");
+  const carousel = document.querySelector("#carousel");
 
   initializePage();
   fetchCategory();

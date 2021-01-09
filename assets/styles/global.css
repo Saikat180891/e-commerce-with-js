@@ -17,35 +17,3 @@ li {
 .w-full {
   width: 100%;
 }
-
-.flex {
-  display: flex;
-}
-
-.flex-col {
-  flex-direction: column;
-}
-
-.justify-center {
-  justify-content: center;
-}
-
-.justify-between {
-  justify-content: space-between;
-}
-
-.justify-start {
-  justify-content: flex-start;
-}
-
-.justify-end {
-  justify-content: flex-end;
-}
-
-.items-center {
-  align-items: center;
-}
-
-.direction-column {
-  flex-direction: column;
-}
