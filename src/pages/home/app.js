@@ -33,6 +33,30 @@ document.addEventListener("DOMContentLoaded", () => {
     } else if (value === "h_l") {
       const prodDataShorted = prodData.sort((a, b) => b.sp - a.sp);
       renderProducts(prodDataShorted);
+    }else if(value === "0-2000"){
+      const prodDataShorted = prodData.filter(item => item.sp > 0 && item.sp <= 2000);
+      renderProducts(prodDataShorted);
+    }else if(value === "<_10%"){
+      const prodDataShorted = prodData.filter(item =>{
+        var d = item.discount.split("%");
+        const dis = parseInt(d[0]);
+        if(dis < 10){
+          return item;
+        }
+      })
+      renderProducts(prodDataShorted);
+    }else if(value === ">_10%"){
+      const prodDataShorted = prodData.filter(item =>{
+        var d = item.discount.split("%");
+        const dis = parseInt(d[0]);
+        if(dis > 10){
+          return item;
+        }
+      })
+      renderProducts(prodDataShorted);
+    }else if(value === "clear_filter"){
+      console.log(prodData)
+      renderProducts(prodData);
     }
   });
 

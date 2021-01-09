@@ -162,3 +162,32 @@ a {
   color: white;
   background-color: #38384f;
 }
+/* checkout style //////////////////////////////////////////////////////*/
+.checkout-section {
+  background-color: rgb(192, 185, 185);
+  padding: 2rem 5rem;
+  margin: 2rem 1rem;
+}
+
+.product_name {
+  font-size: 2rem;
+  color: blue;
+  margin-bottom: 1rem;
+}
+
+.checkout-btn {
+  background-color: blueviolet;
+  color: #58f50a;
+  font-weight: bold;
+  float: right;
+}
+
+.checkout-figure {
+  width: 15rem;
+  height: 15rem;
+}
+
+.checkout-img {
+  height: 100%;
+  width: 100%;
+}
